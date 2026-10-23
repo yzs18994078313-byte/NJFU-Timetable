@@ -1,5 +1,5 @@
 # 南林课表
-
+本项目使用GPT-6.1Sol编写。
 版本 1.3.0。原生 Android 应用，最低 Android 5.0（API 21），compileSdk / targetSdk 37（Android 17）。界面和数据均保存在本机，不需要自建服务器。
 
 ## 下载

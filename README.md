@@ -92,8 +92,8 @@ APK 位于 app/build/outputs/apk/debug/app-debug.apk。调试签名由开发机�
 | 版本 | 修订内容 |
 | --- | --- |
 | 1.3.0 | 提醒记录按开课时间过期，修改提前量后动态重排；周历网格对齐实际节次时间；导入按钮保持在键盘上方；增加跟随系统的浅色、深色主题；教学周压缩显示为连续、单双周或不连续区间。保留目前已可辨认的原生滚轮。188 项检查通过，并实测缩短提前量后再次提醒。 |
-| 1.2.1 | 修改某节开始时间后自动重算后续节次，保留前面的节次；校验重叠及跨日；修正所有原生导航箭头的居中布局。107 项检查通过。 |
-| 1.2.0 | 增加月历平铺、日期课程详情、周历与日程；增加各节开始时间、课程时长和课间休息滚轮设置，支持独立调整、批量排列与旧作息迁移。96 项检查通过。 |
+| 1.2.1 | 修改某节开始时间后自动重算后续节次，保留前面的节次；校验重叠及跨日；修正所有原生导航箭头的居中布局。107 项检查通过。参考了OPPO的系统日历 |
+| 1.2.0 | 增加月历平铺、日期课程详情、周历与日程；增加各节开始时间、课程时长和课间休息滚轮设置，支持独立调整、批量排列与旧作息迁移。96 项检查通过。引入了@hanhuifate的UI |
 | 1.1.0 | 优化竖屏周课表、课程详情和日程；使用指定教务主页与手机 WebView 登录，优化登录输入区域和键盘避让；完善学校临时页跳转与课表读取回退。54 项检查通过。 |
 
 以上版本的本次开发验证日期均为 2026-10-23。历史条目记录对应版本当时的行为；1.3.0 的导入按钮固定在键盘上方，已替代早期版本隐藏底部区域的方式。
@@ -106,4 +106,4 @@ APK 位于 app/build/outputs/apk/debug/app-debug.apk。调试签名由开发机�
 
 学校网络条件、登录流程和接口布局可能调整；真实导入需在能访问教务系统的网络中验证。课程调整后重新同步，以教务系统显示为准。
 
-参考：[Android 17 SDK](https://developer.android.com/about/versions/17/setup-sdk)、[系统闹钟](https://developer.android.com/develop/background-work/services/alarms)、[jsoup Android 支持](https://jsoup.org/download)。
+参考：[Android 17 SDK](https://developer.android.com/about/versions/17/setup-sdk)、[系统闹钟](https://developer.android.com/develop/background-work/services/alarms)、[jsoup Android 支持](https://jsoup.org/download)。OPPO系统日历
